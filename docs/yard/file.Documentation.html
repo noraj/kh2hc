@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
-  File: LICENSE
+  File: Documentation
   
     &mdash; Documentation by YARD 0.9.34
   
@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="css/common.css" type="text/css" />
 
 <script type="text/javascript">
-  pathId = "LICENSE";
+  pathId = "Documentation";
   relpath = '';
 </script>
 
@@ -37,7 +37,7 @@
         <div id="menu">
   
     <a href="_index.html">Index</a> &raquo; 
-    <span class="title">File: LICENSE</span>
+    <span class="title">File: Documentation</span>
   
 </div>
 
@@ -57,23 +57,21 @@
         <div class="clear"></div>
       </div>
 
-      <div id="content"><div id='filecontents'><p>MIT License</p>
-<p>Copyright (c) 2023 Alexandre ZANNI</p>
-<p>Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the &quot;Software&quot;), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:</p>
-<p>The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.</p>
-<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.</p>
+      <div id="content"><div id='filecontents'><h1>Documentation</h1>
+<h2>CLI doc</h2>
+<p>See <a href="Usage.md">Usage</a>.</p>
+<h2>Library doc</h2>
+<p>The output directory of the library documentation will be <code>docs/yard</code>.</p>
+<p>You can consult it online on <a href="https://noraj.github.io/kh2hc/yard/">GitHub</a> or on <a href="https://www.rubydoc.info/gems/kh2hc/">RubyDoc</a>.</p>
+<h3>Building locally: for library users</h3>
+<p>For developers who only want to use the library.</p>
+<pre class="code bash"><code class="bash">bundle exec yard doc
+</code></pre>
+<h3>Serve locally</h3>
+<p>Serve with live reload:</p>
+<pre class="code bash"><code class="bash">bundle exec yard server --reload
+</code></pre>
+<p>Documentation available at: <a href="http://localhost:8808/">http://localhost:8808/</a></p>
 </div></div>
 
       <div id="footer">
