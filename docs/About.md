@@ -2,7 +2,7 @@
 
 ## Presentation
 
-You can find my presentation **Cracking hashed known_hosts** on [github](https://github.com/Acceis/prez-known_hosts) ([Online slideshow](https://acceis.github.io/rump-SafetyNet/) - [PDF](https://github.com/Acceis/rump-SafetyNet/releases/download/v1.0.0/slides.pdf).)
+You can find my presentation **Cracking hashed known_hosts** on [github](https://github.com/Acceis/prez-known_hosts) ([Online slideshow](https://acceis.github.io/prez-known_hosts/) - [PDF](https://github.com/Acceis/prez-known_hosts/releases/download/v1.0.0/slides.pdf).)
 
 ## Why?
 
