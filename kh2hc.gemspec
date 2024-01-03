@@ -29,6 +29,6 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = ['>= 3.0.0', '< 4.0']
 
-  s.add_runtime_dependency('ctf-party', '~> 2.3')
+  s.add_runtime_dependency('ctf-party', '>= 2.3', '< 4.0')
   s.add_runtime_dependency('docopt', '~> 0.6')
 end

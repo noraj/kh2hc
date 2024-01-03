@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 group :runtime do
-  gem 'ctf-party', '~> 2.3'
+  gem 'ctf-party', '~> 3.0'
 end
 
 group :runtime, :cli do
