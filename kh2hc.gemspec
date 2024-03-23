@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     'documentation_uri'     => 'https://noraj.github.io/kh2hc/',
     'homepage_uri'          => 'https://noraj.github.io/kh2hc/',
     'source_code_uri'       => 'https://github.com/noraj/kh2hc/',
+    'funding_uri'           => 'https://github.com/sponsors/noraj',
     'rubygems_mfa_required' => 'true'
   }
 
