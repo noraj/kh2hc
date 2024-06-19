@@ -11,7 +11,7 @@ group :runtime, :cli do
 end
 
 group :development, :test do
-  gem 'minitest', '~> 5.23'
+  gem 'minitest', '~> 5.24'
   gem 'rake', '~> 13.2'
 end
 
