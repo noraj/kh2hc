@@ -28,8 +28,8 @@ Gem::Specification.new do |s|
     'rubygems_mfa_required' => 'true'
   }
 
-  s.required_ruby_version = ['>= 3.1.0', '< 4.0']
+  s.required_ruby_version = ['>= 3.2.0', '< 5.0']
 
-  s.add_runtime_dependency('ctf-party', '>= 2.3', '< 4.0')
+  s.add_runtime_dependency('ctf-party', '>= 4.0', '< 6.0')
   s.add_runtime_dependency('docopt', '~> 0.6')
 end

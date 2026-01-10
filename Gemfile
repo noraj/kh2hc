@@ -3,8 +3,7 @@
 source 'https://rubygems.org'
 
 group :runtime do
-  gem 'base64' # temporary fix for ctf-party on ruby 3.4 until new release
-  gem 'ctf-party', '~> 3.0'
+  gem 'ctf-party', '~> 5.0'
 end
 
 group :runtime, :cli do
@@ -12,7 +11,7 @@ group :runtime, :cli do
 end
 
 group :development, :test do
-  gem 'minitest', '~> 5.24'
+  gem 'minitest', '~> 6.0'
   gem 'rake', '~> 13.2'
 end
 
@@ -21,7 +20,10 @@ group :development, :lint do
 end
 
 group :development, :docs do
-  gem 'commonmarker', '~> 2.0' # for markdown support in YARD
+  gem 'commonmarker', '~> 2.6', '>= 2.6.1' # for markdown support in YARD
+  gem 'irb' # https://github.com/lsegal/yard/issues/1636
+  gem 'logger' # https://github.com/lsegal/yard/issues/1636
+  gem 'ostruct' # https://github.com/lsegal/yard/issues/1636
   # gem 'yard', ['>= 0.9.27', '< 0.10']
   # https://github.com/lsegal/yard/issues/1528
   gem 'yard', github: 'ParadoxV5/yard', ref: '9e869c940859570b07b81c5eadd6070e76f6291e', branch: 'commonmarker-1.0'

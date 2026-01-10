@@ -6,7 +6,7 @@
 <title>
   File: Installation
   
-    &mdash; Documentation by YARD 0.9.34
+    &mdash; Documentation by YARD 0.9.36
   
 </title>
 
@@ -57,23 +57,23 @@
         <div class="clear"></div>
       </div>
 
-      <div id="content"><div id='filecontents'><h1>Installation</h1>
-<h2>Production</h2>
-<h3>Install from rubygems.org</h3>
+      <div id="content"><div id='filecontents'><h1><a href="#installation" aria-hidden="true" class="anchor" id="installation"></a>Installation</h1>
+<h2><a href="#production" aria-hidden="true" class="anchor" id="production"></a>Production</h2>
+<h3><a href="#install-from-rubygemsorg" aria-hidden="true" class="anchor" id="install-from-rubygemsorg"></a>Install from rubygems.org</h3>
 <pre class="code bash"><code class="bash">gem install kh2hc
 </code></pre>
 <p>Gem: <a href="https://rubygems.org/gems/kh2hc">kh2hc</a></p>
-<h3>Install from BlackArch</h3>
+<h3><a href="#install-from-blackarch" aria-hidden="true" class="anchor" id="install-from-blackarch"></a>Install from BlackArch</h3>
 <p>From the repository:</p>
 <pre class="code bash"><code class="bash">pacman -S kh2hc
 </code></pre>
 <p>PKGBUILD: <a href="https://github.com/BlackArch/blackarch/blob/master/packages/kh2hc/PKGBUILD">kh2hc</a></p>
-<h2>Development</h2>
+<h2><a href="#development" aria-hidden="true" class="anchor" id="development"></a>Development</h2>
 <p>It's better to use <a href="https://github.com/rbenv/rbenv">rbenv</a> or <a href="https://github.com/asdf-vm/asdf">asdf</a> to have latests version of ruby and to avoid trashing your system ruby.</p>
-<h3>Install from rubygems.org</h3>
+<h3><a href="#install-from-rubygemsorg-1" aria-hidden="true" class="anchor" id="install-from-rubygemsorg-1"></a>Install from rubygems.org</h3>
 <pre class="code bash"><code class="bash">gem install --development kh2hc
 </code></pre>
-<h3>Build from git</h3>
+<h3><a href="#build-from-git" aria-hidden="true" class="anchor" id="build-from-git"></a>Build from git</h3>
 <p>Just replace <code>x.x.x</code> with the gem version you see after <code>gem build</code>.</p>
 <pre class="code bash"><code class="bash">git clone https://github.com/noraj/kh2hc.git kh2hc
 cd kh2hc
@@ -83,7 +83,7 @@ gem build kh2hc.gemspec
 gem install kh2hc-x.x.x.gem
 </code></pre>
 <p>Note: if an automatic install is needed you can get the version with <code>$ gem build kh2hc.gemspec | grep Version | cut -d' ' -f4</code>.</p>
-<h3>Run without installing the gem</h3>
+<h3><a href="#run-without-installing-the-gem" aria-hidden="true" class="anchor" id="run-without-installing-the-gem"></a>Run without installing the gem</h3>
 <p>From local file:</p>
 <pre class="code bash"><code class="bash">irb -Ilib -rkh2hc
 </code></pre>
@@ -93,9 +93,9 @@ gem install kh2hc-x.x.x.gem
 </div></div>
 
       <div id="footer">
-  Generated on Thu Apr 13 20:01:35 2023 by
+  Generated on Sat Jan 10 18:12:54 2026 by
   <a href="https://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.9.34 (ruby-3.2.1).
+  0.9.36 (ruby-4.0.0).
 </div>
 
     </div>
